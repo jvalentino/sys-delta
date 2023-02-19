@@ -42,6 +42,9 @@ dependencies {
 	implementation 'org.springframework:spring-webmvc'
 	implementation 'org.webjars:bootstrap:5.2.0'
 
+	// Spring Session via JDBC
+	implementation 'org.springframework.session:spring-session-jdbc'
+
 	// DB management
 	implementation 'org.liquibase:liquibase-core'
 	implementation 'org.postgresql:postgresql'
